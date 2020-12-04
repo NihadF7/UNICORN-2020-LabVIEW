@@ -271,7 +271,6 @@ AddOutputFilter chunkFilter
 			<Item Name="GetTopicNode_etc.vi" Type="VI" URL="../builds/UnicornMain/UnicornRIO1/ROS for LabVIEW/home/lvuser/natinst/bin/user.lib/ROS for LabVIEW Software/ROS/Code/SubVIs/GetTopicNode_etc.vi"/>
 			<Item Name="GetURI&amp;Port.vi" Type="VI" URL="../builds/ROS_Test1/UnicornRIO1/ROS for LabVIEW/home/lvuser/natinst/bin/user.lib/ROS for LabVIEW Software/ROS/Code/SubVIs/GetURI&amp;Port.vi"/>
 			<Item Name="GetWriteQueue.vi" Type="VI" URL="../builds/UnicornMain/UnicornRIO1/ROS for LabVIEW/home/lvuser/natinst/bin/user.lib/ROS for LabVIEW Software/ROS/Code/SubVIs/GetWriteQueue.vi"/>
-			<Item Name="Global 2.vi" Type="VI" URL="../UnicornMain/Global 2.vi"/>
 			<Item Name="GlobalVI.vi" Type="VI" URL="../UnicornMain/GlobalVI.vi"/>
 			<Item Name="i32Array.vi" Type="VI" URL="../builds/UnicornMain/UnicornRIO1/ROS for LabVIEW/home/lvuser/natinst/bin/user.lib/ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/i32Array.vi"/>
 			<Item Name="i32Scalar.vi" Type="VI" URL="../builds/UnicornMain/UnicornRIO1/ROS for LabVIEW/home/lvuser/natinst/bin/user.lib/ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/i32Scalar.vi"/>
