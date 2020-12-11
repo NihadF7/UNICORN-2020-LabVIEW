@@ -56,7 +56,7 @@
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -108,7 +108,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="CheckMasterConnection.vi" Type="VI" URL="../builds/ROS_Test1/UnicornRIO1/ROS for LabVIEW/home/lvuser/natinst/bin/user.lib/ROS for LabVIEW Software/ROS/Code/SubVIs/CheckMasterConnection.vi"/>
-		<Item Name="Delay.vi" Type="VI" URL="../UnicornMain/TestVI/Delay.vi"/>
+		<Item Name="Color setting VI.vi" Type="VI" URL="../UnicornMain/LED Control/Color setting VI.vi"/>
 		<Item Name="LED_Test.vi" Type="VI" URL="../UnicornMain/TestVI/LED_Test.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="ManualTestVI.vi" Type="VI" URL="../Lift_Motor_Controll/ManualTestVI.vi"/>
@@ -173,6 +173,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Ref Counter Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Ref Counter Action Enum.ctl"/>
 				<Item Name="Ref Counter.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Ref Counter.vi"/>
 				<Item Name="Resource Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Resource Manager Action Enum.ctl"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="roboRIO AI Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AI/typedefs/roboRIO AI Channels FPGA Reference.ctl"/>
 				<Item Name="roboRIO AO Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/typedefs/roboRIO AO Channels FPGA Reference.ctl"/>
 				<Item Name="roboRIO DIO Bank Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/DIO/typedefs/roboRIO DIO Bank Enum.ctl"/>
@@ -310,22 +311,22 @@ AddOutputFilter chunkFilter
 			<Item Name="WaitForStartup.vi" Type="VI" URL="../builds/UnicornMain/UnicornRIO1/ROS for LabVIEW/home/lvuser/natinst/bin/user.lib/ROS for LabVIEW Software/ROS/Code/SubVIs/WaitForStartup.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+			<Item Name="My Real-Time Application2" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{1D77C778-4E58-4AFA-8A70-AE0A04580602}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{A465ED9A-C11D-4FB8-B244-1F1BDA2590E9}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{80147D84-E620-4786-B5B2-CEBDE26FA18C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EEE84AC8-3D43-4B1C-BA9F-0012EC48A8AC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{43E56F41-54F2-431F-9485-CDFF2656F1C3}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8B055DF5-73AE-4351-96B3-7416889E38BB}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application2</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application2</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{5E324757-0327-46A2-B94C-32AD45F902BB}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{61817E8C-FBE2-4EA0-8AA5-6F1C9F732E63}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -338,7 +339,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{73D44740-7EB2-4FBE-8588-BBFEF451ED08}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{91049E52-ABCA-40DF-9FA7-04B6BAD43517}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Unicorn2020/Main.vi</Property>
@@ -346,11 +347,11 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Mälardalens högskola</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application2</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Mälardalens högskola</Property>
-				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{AA6879BE-7E21-48AE-9A85-DE98008D9DE4}</Property>
+				<Property Name="TgtF_productName" Type="Str">My Real-Time Application2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C17F7E0D-5C9B-4A86-81D8-205585C07C63}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
 		</Item>
